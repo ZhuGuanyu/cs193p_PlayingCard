@@ -22,6 +22,7 @@
 
 @end
 
+
 @implementation PlayingCardViewController
 
 
@@ -37,6 +38,7 @@
     self.modelController.enabled = YES;
     self.game = nil;  //简单的设置为nil 就可以重置
     [self updateUI];  // update 很有用的
+
 }
 
 - (CardMatchingGame *)game
